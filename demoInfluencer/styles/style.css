@@ -1,0 +1,165 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    transition: all .4s cubic-bezier(.79, .14, .15, .86) 0s;
+}
+
+a:visited {
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+
+.header-site {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    z-index: 999;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    flex-wrap: wrap;
+}
+
+.header-left, .header-right {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 60px;
+}
+
+.logo a {
+    display: block;
+}
+
+.logo img {
+    max-height: 60px;
+    width: 100%;
+}
+
+.mainmenu-nav {
+    margin-left: 50px;
+}
+
+ul.mainmenu {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+ul.mainmenu li {
+    margin: 0 15px;
+}
+
+ul.mainmenu li:first-of-type {
+    margin-left: 0;
+}
+
+ul.mainmenu li:last-of-type {
+    margin-right: 0;
+}
+
+ul.mainmenu li:hover {
+    color: #FD2B73;
+}
+
+ul.mainmenu li a {
+    color: #1d1d24;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+ul.mainmenu li a:hover {
+    color: #FD2B73;
+}
+
+.social-share-inner {
+    display: block;
+}
+
+ul.social-share {
+    display: flex;
+    margin: -6px;
+    justify-content: flex-start;
+}
+
+ul.social-share li {
+    height: 30px;
+    margin: 6px;
+    width: 30px;
+    transition: all .4s cubic-bezier(.79, .14, .15, .86) 0s;
+}
+
+ul.social-share li:hover {
+    transform: translateY(-3px);
+}
+
+ul.social-share li a {
+    color: #1d1d24;
+    opacity: .8;
+    border: 0;
+    width: 30px;
+    height: auto;
+    text-align: left;
+    line-height: inherit;
+    font-size: 16px;
+}
+
+ul.social-share li a:hover {
+    color: #FD2B73;
+}
+
+.header-btn {
+    margin-left: 50px;
+}
+
+.header-btn a {
+    color: #1d1d24;
+    border: 2px solid #1d1d24;
+    background-color: transparent;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+}
+
+.header-btn a:hover {
+    background-color: #FD2B73;
+    border-color: #FD2B73;
+    color: #fff;
+}
